@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="lblResultado" layoutX="153.0" layoutY="256.0" prefHeight="33.0" prefWidth="166.0" text="Label" />
+      <TextField fx:id="txtExpresion" layoutX="108.0" layoutY="179.0" onKeyReleased="#evento" prefHeight="33.0" prefWidth="284.0" />
+      <ListView fx:id="lista" layoutX="97.0" layoutY="24.0" prefHeight="146.0" prefWidth="306.0" />
+   </children>
+</AnchorPane>
