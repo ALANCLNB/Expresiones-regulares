@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Splash">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="236.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMG/rigby.gif" />
+         </image>
+      </ImageView>
+      <ProgressBar fx:id="prog" layoutX="277.0" layoutY="469.0" prefHeight="26.0" prefWidth="467.0" progress="0.11" styleClass="progress" stylesheets="@estilos.css" />
+      <Label fx:id="lblProg" layoutX="488.0" layoutY="509.0" text="Progreso" />
+   </children>
+</AnchorPane>
